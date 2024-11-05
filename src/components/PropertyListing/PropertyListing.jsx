@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import PropertyCard from '../PropertyCard';
 import './PropertyListing.scss';
 
-const PropertyListing = ({selectedSortMethod}) => {
+const PropertyListing = () => {
     const [properties, setProperties] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(null);
